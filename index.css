@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+nav img{
+    
+    width: 100px;
+    height: 100px;
+}
+
+nav .texto{
+    border: black solid 2px;
+    text-align: justify;
+    display: flex;
+    height: 100%;
+    margin-top: 30px; 
+    margin-left: 1200px;
+}
+
+nav .texto h1{
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.cordefundo nav .texto h1{
+    color: green;
+}
+
+header{
+   
+    margin-top: 30px;
+    display: list-item;
+    text-align: justify;
+    width: 50%;
+    padding: 15px;
+    
+}
+
+.titulo{
+    
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.cordefundo{
+    background-color:blanchedalmond;
+}
+
+
+
+main{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.th img{
+    width: 70px;
+    height: 70px;
+}
+
+.th{
+    display: inline-flex;
+    margin-right: 40px; 
+    margin-top: 20px;
+}
+.th:nth-last-child(1){
+    margin-right: 0px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.k img{
+    width: 300px;
+    height: 300px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.m{
+    
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.l{
+    
+    display: inline;
+    text-align: justify;
+    margin-right: 300px;
+}
+
+main .m .l button{
+    background-color: greenyellow;
+  border: none;
+  color:blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 70px;
+  margin-left: 40%;
+  cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    color: #FFF;
+    width: 100%;    
+    text-align: center;
+
+}
